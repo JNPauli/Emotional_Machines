@@ -1,10 +1,10 @@
 # Master thesis protect app
 
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://github.com/JNPauli/Mental-image-decoding)
-[![GitHub size](https://img.shields.io/github/repo-size/JNPauli/Mental-image-decoding)](https://github.com/repronim/OHBMEducation-2022/archive/master.zip)
-[![GitHub issues](https://img.shields.io/github/issues/JNPauli/Mental-image-decoding?style=plastic)](https://github.com/JNPauli/Mental-image-decoding/issues)
-[![GitHub PR](https://img.shields.io/github/issues-pr/JNPauli/Mental-image-decoding)](https://github.com/JNPauli/Mental-image-decoding/pulls)
-[![License](https://img.shields.io/github/license/JNPauli/Mental-image-decoding)](https://github.com/JNPauli/Mental-image-decoding)
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://github.com/JNPauli/Protect_app_master_thesis)
+[![GitHub size](https://img.shields.io/github/repo-size/JNPauli/Protect_app_master_thesis)](https://github.com/repronim/OHBMEducation-2022/archive/master.zip)
+[![GitHub issues](https://img.shields.io/github/issues/JNPauli/Protect_app_master_thesis?style=plastic)](https://github.com/JNPauli/Protect_app_master_thesis/issues)
+[![GitHub PR](https://img.shields.io/github/issues-pr/JNPauli/Protect_app_master_thesis)](https://github.com/JNPauli/Protect_app_master_thesis/pulls)
+[![License](https://img.shields.io/github/license/JNPauli/Protect_app_master_thesis)](https://github.com/JNPauli/Protect_app_master_thesis)
 
 
 ## Overview
