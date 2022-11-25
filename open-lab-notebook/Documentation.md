@@ -1,0 +1,5 @@
+# This document serves the purpose of documenting the progress made in the project for my master thesis.
+
+## 25.11.2022
+As for now, the rough idea of the master thesis is the following:
+We have a set of images, that depict situations in which game/internet addicting or social behavior can be seen. Within the set of game/internet addicting behavior, we want humans to rate the emotional valence of those pictures. This rating will be compared with the rating of machine learning algorithms. As for now, I found one [pretrained network](https://github.com/rkosti/emotic) by Kosti et al. (2017) that rates the emotional valence of an image, in respect to context. Ideally, we will use more than one machine learning approach to asses valence. In [this paper by Kim et al., 2017](https://arxiv.org/pdf/1705.07543.pdf) they did something similar and used linear regression and support vector regression to tackle the problem. This would be an intersting approach, since the first model introduced from Kosti et al. is a CNN. 
