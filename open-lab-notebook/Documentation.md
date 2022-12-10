@@ -12,3 +12,7 @@ Also I have been thinking about the research question. Im not sure, if comparing
 
 Also:
 How large is the stimuli set? Because we need to define a **training set**, **validation set** and **test set**. We can split the stimulus set in three parts, if its large enough.
+
+I would suggest to create a research question this month, so we can schedule a meeting with Maren to discuss how to proceed.
+
+My first draft would be the following: Comparing different machine learning techniques in their performance on detecting emotional valence in game disorder images.
