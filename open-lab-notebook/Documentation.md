@@ -6,9 +6,13 @@ We have a set of images, that depict situations in which game/internet addicting
 
 ## 10.12.2022
 The notebook has not been updated in a while, because I invested a lot of time in literatur research. Image classification can be done by using a SVM. Interesting resources are the following: [1](https://medium.com/analytics-vidhya/image-classification-using-machine-learning-support-vector-machine-svm-dc7a0ec92e01), [2](https://nikolasent.github.io/classifier/2017/08/01/Image-classification-using-SVM.html). 
-I think it would be a nice idea to use the pretrained network and compare it to the SVM. Maybe I can even create a new CNN? 
 
-Also I have been thinking about the research question. Im not sure, if comparing the performance of the machine learning models with the performance of humans is a good idea. My doubts come from the fact, that the input to f.e. the SVM are ratings made by humans. I still think it is a nice idea to compare the performance of several machine learning models with one and another. 
+Idea #1 would be to use an SVM approach for creating a set of game addiction vs non game addiction behavior.
+
+Idea #1.1 would be the following:
+I think it would be a nice idea to use the pretrained network and compare it to the SVR. Maybe I can even create a new CNN? 
+
+Also I have been thinking about the research question. Im not sure, if comparing the performance of the machine learning models with the performance of humans is a good idea. My doubts come from the fact, that the input to f.e. the SVR are ratings made by humans. I still think it is a nice idea to compare the performance of several machine learning models with one and another. 
 
 Also:
 How large is the stimuli set? Because we need to define a **training set**, **validation set** and **test set**. We can split the stimulus set in three parts, if its large enough.
@@ -16,3 +20,4 @@ How large is the stimuli set? Because we need to define a **training set**, **va
 I would suggest to create a research question this month, so we can schedule a meeting with Maren to discuss how to proceed.
 
 My first draft would be the following: Comparing different machine learning techniques in their performance on detecting emotional valence in game disorder images.
+In this thesis I would then #1 use a SVM to classify the given image stimuli into game addiction vs non game addiction behavior and #2 let a sample of students rate the images in regard to the respective valence. This serves as an input to the SVR and the pretrained CNN.
