@@ -20,4 +20,6 @@ How large is the stimuli set? Because we need to define a **training set**, **va
 I would suggest to create a research question this month, so we can schedule a meeting with Maren to discuss how to proceed.
 
 My first draft would be the following: Comparing different machine learning techniques in their performance on detecting emotional valence in game disorder images.
-In this thesis I would then #1 use a SVM to classify the given image stimuli into game addiction vs non game addiction behavior and #2 let a sample of students rate the images in regard to the respective valence. This serves as an input to the SVR and the pretrained CNN.
+While there are already some studies that focus on valence recognition in images, this has not been done with a set of game disorder images yet. This master thesis could thus add some novelty in the field of research, by adding the context of game disorder. While I would like to maybe even investigate a different clinical context (for example, Images that promote eating disorder habits) it is probably easier for now to stick to the given set of stimuli.
+
+In this thesis I would #1 use a SVM to classify the given image stimuli into game addiction vs non game addiction behavior and #2 let a sample of students rate the images in regard to the respective valence. This serves as an input to the SVR and the pretrained CNN.
