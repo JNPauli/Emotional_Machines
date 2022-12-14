@@ -30,3 +30,5 @@ Extract from the images the following features:
 The object, the face (if visible, this would be the novel component) and background features (color-,local and semantic features). The extracted features serve as the input to the prediction of the valence in the images. 
 While this has been done in a given stimulus set, we would add novelty by a) the game-disorder context and b) the optional face recogniton. 
 Features extracted from face recognition, combined with the context, has already been done by Lee et al. (2019)[https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Context-Aware_Emotion_Recognition_Networks_ICCV_2019_paper.pdf] but he solely used faces as the main object.
+
+The extracted features can then be used at the input to the SVR to predict the emotional valence.
