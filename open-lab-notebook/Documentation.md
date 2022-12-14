@@ -23,3 +23,10 @@ My first draft would be the following: Comparing different machine learning tech
 While there are already some studies that focus on valence recognition in images, this has not been done with a set of game disorder images yet. This master thesis could thus add some novelty in the field of research, by adding the context of game disorder. While I would like to maybe even investigate a different clinical context (for example, Images that promote eating disorder habits) it is probably easier for now to stick to the given set of stimuli.
 
 In this thesis I would #1 use a SVM to classify the given image stimuli into game addiction vs non game addiction behavior and #2 let a sample of students rate the images in regard to the respective valence. This serves as an input to the SVR and the pretrained CNN.
+
+## 13.12.2022
+It looks like one approach we could use is the one proposed by [Kim et al. (2017)](https://arxiv.org/pdf/1705.07543.pdf).
+Extract from the images the following features:
+The object, the face (if visible, this would be the novel component) and background features (color-,local and semantic features). The extracted features serve as the input to the prediction of the valence in the images. 
+While this has been done in a given stimulus set, we would add novelty by a) the game-disorder context and b) the optional face recogniton. 
+Features extracted from face recognition, combined with the context, has already been done by Lee et al. (2019)[https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Context-Aware_Emotion_Recognition_Networks_ICCV_2019_paper.pdf] but he solely used faces as the main object.
