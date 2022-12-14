@@ -32,3 +32,5 @@ While this has been done in a given stimulus set, we would add novelty by a) the
 Features extracted from face recognition, combined with the context, has already been done by Lee et al. (2019)[https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Context-Aware_Emotion_Recognition_Networks_ICCV_2019_paper.pdf] but he solely used faces as the main object.
 
 The extracted features can then be used at the input to the SVR to predict the emotional valence.
+
+The emotional valence relates is important in regard to gaming disorder, because it can be argued, that a certain "dysfunctional" behavior still needs to be examined in respect to the emotionality. N
