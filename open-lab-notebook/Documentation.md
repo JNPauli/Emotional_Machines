@@ -29,8 +29,15 @@ It looks like one approach we could use is the one proposed by [Kim et al. (2017
 Extract from the images the following features:
 The object, the face (if visible, this would be the novel component) and background features (color-,local and semantic features). The extracted features serve as the input to the prediction of the valence in the images. 
 While this has been done in a given stimulus set, we would add novelty by a) the game-disorder context and b) the optional face recogniton. 
-Features extracted from face recognition, combined with the context, has already been done by Lee et al. (2019)[https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Context-Aware_Emotion_Recognition_Networks_ICCV_2019_paper.pdf] but he solely used faces as the main object.
+Features extracted from face recognition, combined with the context, has already been done by [Lee et al. (2019)](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Context-Aware_Emotion_Recognition_Networks_ICCV_2019_paper.pdf) but he solely used faces as the main object.
 
 The extracted features can then be used at the input to the SVR to predict the emotional valence.
 
-The emotional valence relates is important in regard to gaming disorder, because it can be argued, that a certain "dysfunctional" behavior still needs to be examined in respect to the emotionality. N
+The emotional valence relates is important in regard to gaming disorder, because it can be argued, that a certain "dysfunctional" behavior still needs to be examined in respect to the emotionality. 
+
+## 14.12.2022
+Notes from the meeting:
+Probably go with another Dataset, so do not use the game disorder dataset. The sample size of the stimulus set is probably to low. 
+Canidates for now are the [emotic](http://sunai.uoc.edu/emotic/) or the [CAER](https://caer-dataset.github.io/download.html) database.
+
+Updated goal of the master thesis is to apply a CNN, that combines different architecture elements from the CNN's listed in the respective papers, (see Kosti, Kim, Lee paper) to one of those datasets
