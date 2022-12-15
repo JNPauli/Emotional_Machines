@@ -38,6 +38,8 @@ The emotional valence relates is important in regard to gaming disorder, because
 ## 14.12.2022
 Notes from the meeting:
 Probably go with another Dataset, so do not use the game disorder dataset. The sample size of the stimulus set is probably to low. 
-Canidates for now are the [emotic](http://sunai.uoc.edu/emotic/) or the [CAER](https://caer-dataset.github.io/download.html) database.
+Canidates for now are the [EMOTIC](http://sunai.uoc.edu/emotic/) or the [CAER](https://caer-dataset.github.io/download.html) database.
 
-Updated goal of the master thesis is to apply a CNN, that combines different architecture elements from the CNN's listed in the respective papers, (see Kosti, Kim, Lee paper) to one of those datasets
+Updated goal of the master thesis is to apply a CNN, that combines different architecture elements from the CNN's listed in the respective papers, (see Kosti, Kim, Lee paper) to one of those datasets.
+
+The network from Kosti and colleagues did not consider the facial expression, because the EMOTIC database containts ~25%images without visible faces. It would be interesting to apply the CNN from Kosti on the CAER database. One research question might be, how important the facial expression is in the detection of emotions, as compared to other markers, as defined by kosti et al.
