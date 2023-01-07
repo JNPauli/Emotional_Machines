@@ -43,3 +43,7 @@ Canidates for now are the [EMOTIC](http://sunai.uoc.edu/emotic/) or the [CAER](h
 Updated goal of the master thesis is to apply a CNN, that combines different architecture elements from the CNN's listed in the respective papers, (see Kosti, Kim, Lee paper) to one of those datasets.
 
 The network from Kosti and colleagues did not consider the facial expression, because the EMOTIC database containts ~25%images without visible faces. It would be interesting to apply the CNN from Kosti on the CAER database. One research question might be, how important the facial expression is in the detection of emotions, as compared to other markers, as defined by kosti et al.
+
+## 07.01.2023
+So I downloaded the Dataset used by Kim et al (2018) and started to explore it (see data/Dataset_Exploration.ipynb).
+Two dimensions were rated for the image stimuli: Valence and arousal. In the EMOTIC dataset there were several categories used, but also three continuous dimensions called Valence, Arousal and and Dominance. Kosti and colleagues used a different CNN structure than Kim and colleagues. One possible idea for the master thesis would be to apply the CNN structure from Kosti to the Kim dataset and see, how it can be compared in regard to the two dimensions "Valence" and "Arousal".
