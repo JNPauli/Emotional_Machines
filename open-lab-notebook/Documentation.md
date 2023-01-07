@@ -47,3 +47,5 @@ The network from Kosti and colleagues did not consider the facial expression, be
 ## 07.01.2023
 So I downloaded the Dataset used by Kim et al (2018) and started to explore it (see data/Dataset_Exploration.ipynb).
 Two dimensions were rated for the image stimuli: Valence and arousal. In the EMOTIC dataset there were several categories used, but also three continuous dimensions called Valence, Arousal and and Dominance. Kosti and colleagues used a different CNN structure than Kim and colleagues. One possible idea for the master thesis would be to apply the CNN structure from Kosti to the Kim dataset and see, how it can be compared in regard to the two dimensions "Valence" and "Arousal".
+
+Additionally, it would be nice to incoperate a facial expression framework. However, not on every image a face can be seen. And im not sure, if this exceeds the time and computing resources.
