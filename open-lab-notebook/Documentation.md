@@ -49,3 +49,16 @@ So I downloaded the Dataset used by Kim et al (2018) and started to explore it (
 Two dimensions were rated for the image stimuli: Valence and arousal. In the EMOTIC dataset there were several categories used, but also three continuous dimensions called Valence, Arousal and and Dominance. Kosti and colleagues used a different CNN structure than Kim and colleagues. One possible idea for the master thesis would be to apply the CNN structure from Kosti to the Kim dataset and see, how it can be compared in regard to the two dimensions "Valence" and "Arousal".
 
 Additionally, it would be nice to incoperate a facial expression framework. However, not on every image a face can be seen. And im not sure, if this exceeds the time and computing resources.
+
+## 12.01.2023
+Ideas:
+Split the emotic dataset in images, so we only have images that contain faces.
+Next, establish a new CNN model architecture. 
+The main features that should be part of the CNN: 
+Extracting facial expression cues ([like in the CAER-net-s](https://caer-dataset.github.io/file/JiyoungLee_iccv2019_CAER-Net.pdf))
+Extract body pose
+Semantic features
+color features
+
+Categorize and use continuous dimensions.
+Maybe compare the continuous predictions with SVR and/or linear regression? Similiar to [Kim et al., 2018}((https://arxiv.org/pdf/1705.07543.pdf)
