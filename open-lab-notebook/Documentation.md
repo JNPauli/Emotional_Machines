@@ -69,3 +69,7 @@ I think it is not a bad idea to have the predictive view that this can be applie
 Also I was wondering if I can really use the Kim et al. dataset? Does it not have to carry a license or something like this?
 I like the idea of applying a similar structure like the one from the Kim paper and apply it to the emotic database.
 
+Building the model with tensorflow? 
+How does classification work, when building a new model?
+
+Vision: Input to protect app: Output -> Category and valence.
