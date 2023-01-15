@@ -73,3 +73,5 @@ Building the model with tensorflow?
 How does classification work, when building a new model?
 
 Vision: Input to protect app: Output -> Category and valence.
+
+Also: Some features are extracted with Alexnet and so forth. How can I adapt my own CNN, so the features do not have to be extracted from alexnet and then be put into the model? 
