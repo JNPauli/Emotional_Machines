@@ -55,10 +55,17 @@ Ideas:
 Split the emotic dataset in images, so we only have images that contain faces.
 Next, establish a new CNN model architecture. 
 The main features that should be part of the CNN: 
-Extracting facial expression cues ([like in the CAER-net-s](https://caer-dataset.github.io/file/JiyoungLee_iccv2019_CAER-Net.pdf))
+Extracting facial expression cues ([like in the CAER-net-s](https://caer-dataset.github.io/file/JiyoungLee_iccv2019_CAER-Net.pdf)). In general: Crop face and apply CNN layers on it?!
 Extract body pose
 Semantic features
 color features
 
 Categorize and use continuous dimensions.
-Maybe compare the continuous predictions with SVR and/or linear regression? Similiar to [Kim et al., 2018}((https://arxiv.org/pdf/1705.07543.pdf)
+Maybe compare the continuous predictions with SVR and/or linear regression? Similiar to [Kim et al., 2018](https://arxiv.org/pdf/1705.07543.pdf).
+
+I think it is not a bad idea to have the predictive view that this can be applied to the Protect App Stimuli. I think all features in the proposed architecture could be benefitial to the project. Maybe the idea could be to train it on the emotic dataset and a thesis could use this model and apply it to protect app stimuli?
+
+## 15.01.2023
+Also I was wondering if I can really use the Kim et al. dataset? Does it not have to carry a license or something like this?
+I like the idea of applying a similar structure like the one from the Kim paper and apply it to the emotic database.
+
