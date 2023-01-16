@@ -63,7 +63,7 @@ color features
 Categorize and use continuous dimensions.
 Maybe compare the continuous predictions with SVR and/or linear regression? Similiar to [Kim et al., 2018](https://arxiv.org/pdf/1705.07543.pdf).
 
-I think it is not a bad idea to have the predictive view that this can be applied to the Protect App Stimuli. I think all features in the proposed architecture could be benefitial to the project. Maybe the idea could be to train it on the emotic dataset and a thesis could use this model and apply it to protect app stimuli?
+I think it is not a bad idea to have the predictive view that this can be applied to the Protect App Stimuli. I think all features in the proposed architecture could be benefitial to the project. Maybe the idea could be to train it on the emotic dataset and another thesis could use this model and apply it to protect app stimuli?
 
 ## 15.01.2023
 Also I was wondering if I can really use the Kim et al. dataset? Does it not have to carry a license or something like this?
@@ -74,4 +74,6 @@ How does classification work, when building a new model?
 
 Vision: Input to protect app: Output -> Category and valence.
 
-Also: Some features are extracted with Alexnet and so forth. How can I adapt my own CNN, so the features do not have to be extracted from alexnet and then be put into the model? 
+Also: Some features are extracted with Alexnet and so forth. How can I adapt my own CNN, so the features do not have to be extracted from alexnet and then be put into the model? Meaning it is "ready to use".
+
+How do I train my model on the emotic dataset? Dont I have to adapt the structure then?
