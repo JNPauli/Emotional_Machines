@@ -83,7 +83,9 @@ other dimensions that pleasure dominance (color)
 
 semantic?
 
-attention network, salience maps. where do people look?. [example](https://sci-hub.se/10.1109/tmm.2018.2830098)
+attention network, salience maps. where do people look?. [example 1](https://sci-hub.se/10.1109/tmm.2018.2830098),
+[example 2](https://arxiv.org/pdf/1904.09146.pdf%C2%A0%E8%8B%A5%E6%9C%89%E4%B8%AA%E4%BA%BA%E8%AF%AF%E5%8C%BA%E5%8F%8A%E7%BF%BB%E8%AF%91%E9%94%99%E8%AF%AF%EF%BC%8C%E6%81%B3%E8%AF%B7%E5%8F%8A%E6%97%B6%E8%AF%84%E8%AE%BA%E6%8C%87%E6%AD%A3%E3%80%82),
+[example 3](http://wrap.warwick.ac.uk/123588/1/WRAP-deep-salient-object-detection-contextual-guidance-Han-2019.pdf)
 
 BSP:
 Objects features(Alexnet) last layer switch with valence. (Kim paper, VI. C)
