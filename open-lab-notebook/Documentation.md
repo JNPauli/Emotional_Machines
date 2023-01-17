@@ -77,3 +77,17 @@ Vision: Input to protect app: Output -> Category and valence.
 Also: Some features are extracted with Alexnet and so forth. How can I adapt my own CNN, so the features do not have to be extracted from alexnet and then be put into the model? Meaning it is "ready to use".
 
 How do I train my model on the emotic dataset? Dont I have to adapt the structure then?
+
+## 17.01.2023
+other dimensions that pleasure dominance (color)
+
+semantic?
+
+attention network, salience maps. where do people look?. [example](https://sci-hub.se/10.1109/tmm.2018.2830098)
+
+BSP:
+Objects features(Alexnet) last layer switch with valence. (Kim paper, VI. C)
+
+TODO:
+Neuromatch
+Alexnet train
