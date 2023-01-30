@@ -93,3 +93,23 @@ Objects features(Alexnet) last layer switch with valence. (Kim paper, VI. C)
 TODO:
 Neuromatch
 Alexnet train
+
+## 18.01.2023
+Dataset = Emotic
+
+Model = CNN, based on the model architecture from Kim et al. and Kosti.
+    Compare continous measures with SVR and/or linear regression
+    Compare continous measures with SVM and/or logistic regression?
+Inputs = 
+    Color (pleasure, dominance, arousal)
+    Object features (AlexNet, VGG16, and ResNet)
+    Facial expression (if possible)
+    Body poes
+    salient object detection / Attention networks?
+
+
+Research questions:
+    Which features are actually important -> Similar to incremental validity
+    Vision: Input to protect app: Output -> Category and valence.
+
+
