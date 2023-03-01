@@ -100,6 +100,7 @@ Dataset = Emotic
 Model = CNN, based on the model architecture from Kim et al. and Kosti.
     Compare continous measures with SVR and/or linear regression
     Compare continous measures with SVM and/or logistic regression?
+    
 Inputs = 
     Color (pleasure, dominance, arousal)
     Object features (AlexNet, VGG16, and ResNet)
@@ -111,5 +112,15 @@ Inputs =
 Research questions:
     Which features are actually important -> Similar to incremental validity
     Vision: Input to protect app: Output -> Category and valence.
+
+
+## 01.03.2023
+Started to load images and annotations into CSV by following the [Pytorch implementation](https://github.com/Tandon-A/emotic) of the emotic dataset.
+
+Applied Alexnet on some images to extract the objects. It worked in principle, but the classifications are only sort of right. I tried to use YOLO, but it gives me an error. Maybe cloud computation will solve this. Not so sure.
+
+Looked in different ways to compute emotion for given color. [See](https://d1wqtxts1xzle7.cloudfront.net/40230224/CS-Nijdam-Niels-libre.pdf?1448097609=&response-content-disposition=inline%3B+filename%3DCS_Nijdam_Niels.pdf&Expires=1677666186&Signature=giaS7-kW5FpY2daK9gf-Gucy9FdzlabzeWwuecdvqFBrEgVBQKTpGMJxfCzTcMO2BU4DAXAES4JJebivkpAnycEM9uXdZDx2SeCh07R34Qv6Gbr48xIeIGIFdHrkojzNd2n3tuMp5aAQmMoSxnCoz0YbyxEQaAQTeRB-KjJk4lkXwX4B2K9T52is8dJcow3-nVLgG~9TjrXrB~1KeKxUm3-N2uBz9HElflCUy-VnXPmkZbX2mDw9q9~61i73i2p5BRd2vXrEbvxXgLOqZ~Ko9EIbvkEUour9AIeQ4PYNJSYwo82MBrxvNnyUGDrdcKGOiedtGnbkqUjFwKNRS-2n2g__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA), especially page *5*.
+
+Further investigates salience maps. Seems doable! [Notable resource](https://github.com/sunnynevarekar/pytorch-saliency-maps/blob/master/Saliency_maps_in_pytorch.ipynb) and the respective [paper](https://arxiv.org/pdf/1312.6034.pdf).
 
 
