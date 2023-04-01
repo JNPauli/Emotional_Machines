@@ -9,9 +9,12 @@
 
 ## Overview
 This repository contains the code, data(?) and documentation progress for my master thesis in the faculty for Psychological Methods with Interdisciplinary Focus.
-Aim of the master thesis is to compare the variability for the assessment of emotional valence in images between machine learning algorithms and human ratings.
+Aim of the master thesis is to use different `features`as a predictor for emotion variables (Arousal,Dominance,Valence). The results will be compared between and within each feature. The within comparism will be between different classification techniques. Most likely, wether a traditional algorithm like the `Logistic Regression` or the `Support Vector Machine` provides comparable results to a `Neural Network`.
+
+All operations are executed with python.
 
 ## Structure
-For now only the [open-lab-notebook](https://github.com/JNPauli/Protect_app_master_thesis/tree/main/open-lab-notebook) is filled with information, as the data and code folder have no content yet. 
+The [open-lab-notebook](https://github.com/JNPauli/Protect_app_master_thesis/tree/main/open-lab-notebook) holds information about the process of generating the research question.
 
+The [data folder]((https://github.com/JNPauli/Protect_app_master_thesis/tree/main/data) holds the Dataset Exploration notebook. The code on how to load and process the data is stored in there.
 
