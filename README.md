@@ -16,5 +16,5 @@ All operations are executed with python.
 ## Structure
 The [open-lab-notebook](https://github.com/JNPauli/Protect_app_master_thesis/tree/main/open-lab-notebook) holds information about the process of generating the research question.
 
-The [data folder](https://github.com/JNPauli/Protect_app_master_thesis/tree/main/data) holds the Dataset Exploration notebook. The code on how to load and process the data is stored in there.
+The [data folder](https://github.com/JNPauli/Protect_app_master_thesis/tree/main/data) holds the Dataset Exploration notebook. The code on how to load and process the data is stored in there. The Deep_Classification notebook is also hosted on [google colab](https://colab.research.google.com/drive/1kryYK0KILHHfUcC4Jj6U70wLl2dnkfFW?usp=sharing)
 
