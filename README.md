@@ -8,8 +8,8 @@
 
 
 ## Overview
-This repository contains the code, data(?) and documentation progress for my master thesis in the faculty for Psychological Methods with Interdisciplinary Focus.
-Aim of the master thesis is to use different `features`as a predictor for emotion variables (Arousal,Dominance,Valence). The results will be compared between and within each feature. The within comparism will be between different classification techniques. Most likely, wether a traditional algorithm like the `Logistic Regression` or the `Support Vector Machine` provides comparable results to a `Neural Network`.
+This repository contains the code and documentation progress for my master thesis in the faculty for Psychological Methods with Interdisciplinary Focus.
+Goal of the Master Thesis was to train a Convolutional Neural Network with Saliency Maps and classify the three Emotion Variables Valence, Arousal and Dominance.
 
 All operations are executed with python.
 
@@ -17,4 +17,7 @@ All operations are executed with python.
 The [open-lab-notebook](https://github.com/JNPauli/Protect_app_master_thesis/tree/main/open-lab-notebook) holds information about the process of generating the research question.
 
 The [data folder](https://github.com/JNPauli/Protect_app_master_thesis/tree/main/data) holds the Dataset Exploration notebook. The code on how to load and process the data is stored in there. The Deep_Classification notebook is also hosted on [google colab](https://colab.research.google.com/drive/1kryYK0KILHHfUcC4Jj6U70wLl2dnkfFW?usp=sharing)
+
+## Appendix
+Please note that this project was conducted by a single person with only a bit of training in deep learning. My intrinsic goal was to improve my skillset and knowledge in deep learning.
 
