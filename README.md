@@ -1,4 +1,4 @@
-# Master thesis protect app
+# Visual Saliency as a predictor for Emotions - A Deep Learning Study
 
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://github.com/JNPauli/Protect_app_master_thesis)
 [![GitHub size](https://img.shields.io/github/repo-size/JNPauli/Protect_app_master_thesis)](https://github.com/JNPauli/Protect_app_master_thesis/archive/master.zip)
