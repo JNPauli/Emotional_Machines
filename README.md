@@ -1,4 +1,4 @@
-# Visual Saliency as a predictor for Emotions - A Deep Learning Study
+# Visual Saliency as a predictor for emotions - A Deep Learning Study
 
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://github.com/JNPauli/Protect_app_master_thesis)
 [![GitHub size](https://img.shields.io/github/repo-size/JNPauli/Protect_app_master_thesis)](https://github.com/JNPauli/Protect_app_master_thesis/archive/master.zip)
@@ -9,9 +9,8 @@
 
 ## Overview
 This repository contains the code and documentation progress for my master thesis in the faculty for Psychological Methods with Interdisciplinary Focus.
-Goal of the Master Thesis was to train a Convolutional Neural Network with Saliency Maps and classify the three Emotion Variables Valence, Arousal and Dominance.
+Goal of the Master Thesis was to train a Convolutional Neural Network with Saliency Maps created by following the approach of [Simonyane et al., 2013](https://arxiv.org/abs/1312.6034) and classify three emotion variables Valence, Arousal and Dominance, see [PAD-Theory](https://link.springer.com/article/10.1007/BF02686918)
 
-All operations are executed with python.
 
 ## Structure
 The [open-lab-notebook](https://github.com/JNPauli/Protect_app_master_thesis/tree/main/open-lab-notebook) holds information about the process of generating the research question.
